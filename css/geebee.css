@@ -66,9 +66,13 @@
 	margin-top: 50px;
 }
 
+#pedals .pedals-item {
+    margin-bottom: 50px;
+}
+
 #pedals .pedals-item .pedals-link .pedals-hover {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 100%;
     opacity: 0;
     background: #00c6ff;
@@ -80,7 +84,6 @@
 
 #pedals .pedals-item .pedals-link .pedals-hover:hover {
     opacity: 0.9;
-
 }
 
 #pedals .pedals-item .pedals-link .pedals-hover .pedals-hover-content {
