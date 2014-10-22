@@ -1,3 +1,15 @@
+a {
+	outline : none;
+}
+
+a img {
+	outline : none;
+}
+
+img {
+	border : 0;
+}
+
 .title {
 	font-family: 'air_conditionerregular';
 	text-transform: lowercase;
@@ -80,6 +92,7 @@
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    outline: none;
 }
 
 #pedals .pedals-item .pedals-link .pedals-hover {
@@ -143,7 +156,7 @@
 
 @media(min-width:767px) {
     #pedals .pedals-item {
-        margin: 0 0 30px;
+        margin: 0 0 60px;
     }
 }
 
@@ -209,4 +222,9 @@
     -ms-transition: opacity .5s;
     -o-transition: opacity .5s;
     transition: opacity .5s;
+}
+
+.footer {
+	font-size: 1em;
+	color: #00c6ff;
 }
