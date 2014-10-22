@@ -1,8 +1,8 @@
-a {
+:focus {
 	outline : none;
 }
 
-a img {
+:focus img {
 	outline : none;
 }
 
@@ -14,6 +14,7 @@ img {
 	font-family: 'air_conditionerregular';
 	text-transform: lowercase;
 	font-size: 2.5em;
+	font-weight: 900;
 }
 
 .menu {
@@ -161,32 +162,32 @@ img {
 }
 
 .sc-modal-dialog {
-    width: 75%;
+    /*width: 75%;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 .sc-modal-body {
     width: 100%;
-    height: 70%;
+    height: 450px;
     margin-bottom: 20px;
     overflow: scroll;
-    overflow-x: hidden;
     font-size: 1.2em;
 }
 
 .sc-modal-content {
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
     margin-top: 25px;
+    color: #bb0081;
 }
 
 .sc-modal-title {
-    color: #DDD;
+    color: #FFF;
     font-weight: 700;
     text-align: center;
-    font-size: 1em;
+    font-size: 3em;
 }
 
 .sc-modal-header {
