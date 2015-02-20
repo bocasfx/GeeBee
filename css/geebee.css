@@ -69,7 +69,7 @@ img {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #00c6ff;
 }
 
 .navbar-custom .navbar-brand {
@@ -252,6 +252,17 @@ body {
 
 /*-----------------------------------------*/
 
+.soon {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soon-txt {
+    margin-top: 100px;
+}
+
+
 .title {
 	font-family: 'air_conditionerregular';
 	text-transform: lowercase;
@@ -408,14 +419,12 @@ body {
 }
 
 .sc-modal-dialog {
-    /*width: 75%;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 .sc-modal-body {
     width: 100%;
-    height: 450px;
     margin-bottom: 20px;
     overflow: scroll;
     font-size: 1.2em;
@@ -442,7 +451,7 @@ body {
 
 .sc-button {
     background-color: #CCC;
-    border-radius: 0px;
+    border-radius: 0;
     background-image: none;
     text-shadow: none;
     color: #bb0081;
@@ -451,6 +460,22 @@ body {
 .sc-button:hover {
     background-color: #bb0081;
     color: #CCC;
+}
+
+.sc-pedal-section {
+    margin-top: 30px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sc-pedal-section-content {
+    color: #666666;
+}
+
+.sc-bullet {
+    color: #bb0081;
+    margin-top: 4px;
+    font-size: 0.7em;
 }
 
 .modal.fade .modal-dialog {
@@ -472,8 +497,8 @@ body {
 }
 
 .footer {
-	font-size: 1em;
-	color: #00c6ff;
+	font-size: 0.7em;
+	color: #ffffff;
 }
 
 #about {
@@ -486,4 +511,19 @@ body {
     /*background-color: rgba(0, 0, 0, 0.3);*/
     background-color: #00c6ff;
     width: 100%;
+}
+
+/* Gallery ------------------------------------ */
+
+.gallery-section {
+    margin-top: 75px;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    border: none;
+    border-radius: 0;
 }

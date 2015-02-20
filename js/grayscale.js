@@ -176,3 +176,16 @@ function init() {
         icon: image
     });
 }
+
+$("[id^=pop]").on("click", function() {
+    $('#imagepreview').attr('src', this.attributes["data-source"].value);
+    $('#imagecaption').html(this.attributes["data-caption"].value);
+    $('#imagemodal').modal('show');
+    $('#imagemodal').on('shown', function() {
+        $("#imagemodal > img")[0].focus();
+    });
+});
+
+function closeModal() {
+    $('#imagemodal').hide();
+}
