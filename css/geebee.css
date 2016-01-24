@@ -513,6 +513,25 @@ body {
     width: 100%;
 }
 
+.address {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pedalera-logo {
+    margin: 15px 0 15px 0;
+}
+
+.video-container {
+    width: 560px;
+    height: 315px;
+}
+
 /* Gallery ------------------------------------ */
 
 .gallery-section {

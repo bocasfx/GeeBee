@@ -130,7 +130,7 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-sm-6 pedals-item">
-                    <a href="#pedalsModal3" class="pedals-link" data-toggle="modal">
+                    <a href="#armadillo-modal" class="pedals-link" data-toggle="modal">
                         <div class="pedals-hover">
                             <div class="pedals-hover-content">
                                 <h1>WHRFFFRRF!</h1>
@@ -140,7 +140,7 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-sm-6 pedals-item">
-                    <a href="#pedalsModal4" class="pedals-link" data-toggle="modal">
+                    <a href="#chapulin-modal" class="pedals-link" data-toggle="modal">
                         <div class="pedals-hover">
                             <div class="pedals-hover-content">
                                 <h1>BOINNNK!</h1>
@@ -150,7 +150,7 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-sm-6 pedals-item">
-                    <a href="#pedalsModal5" class="pedals-link" data-toggle="modal">
+                    <a href="#zopilote-modal" class="pedals-link" data-toggle="modal">
                         <div class="pedals-hover">
                             <div class="pedals-hover-content">
                                 <h1>AAAWWWRRK!</h1>
@@ -160,6 +160,9 @@
                     </a>
                 </div>
             </div>
+            <div class="shadow video-container center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2xMOE-JwEU4" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
     <!-- Contact Section -->
@@ -167,18 +170,15 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="title">Contact</h2>
+                <p class="address">La Pedalera</p>
+                <img class="pedalera-logo" src="img/geebee/pedalera.png"/>
+                <p>Alberto Zamora 30. Coyoacan. Mexico, DF.</p>
                 <p>Send us an email.
                     <br>Or not... We're not the email police.</p>
-                <p><a class="white" href="mailto:info@geebee.com">info@geebee.com</a></p>
+                <p><a class="white" href="mailto:info@geebee.com">geebeefx@gmail.com</a></p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
                         <a href="https://www.facebook.com/GeeBee" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
@@ -196,11 +196,11 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    
     <!-- Modals +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
     <!-- Tlacoache Modal -->
     <div class="modal fade" data-easein="pulse" id="tlacoache-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog sc-modal-dialog">
@@ -208,12 +208,12 @@
                 <div class="modal-header sc-modal-header">
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
                     <div class="modal-title sc-modal-title" id="myModalLabel">
-                        <img src="img/pedals/tlacoache-title.png" />
+                        <h2 class="sc-pedal-section title">Tlacoache</h2>
                     </div>
                 </div>
                 <div class="modal-body sc-modal-body">
                     <div class="sc-modal-content">
-                        <img src="img/pedals/tlacoache-hr.jpg" class="img-responsive shadow" />
+                        <img src="img/geebee/tlacoache-hr.jpg" class="img-responsive shadow" />
                         <h2 class="sc-pedal-section title">Specs</h2>
                         <div class="sc-pedal-section-content">
                             <ul class="fa-ul">
@@ -232,9 +232,6 @@
                                 <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Fuzz</li>
                             </ul>
                         </div>
-                        <h2 class="sc-pedal-section title">Samples</h2>
-                        <!-- <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/94951325&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2xMOE-JwEU4" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -243,19 +240,20 @@
             </div>
         </div>
     </div>
-    <!-- Ajolote Modal -->
-    <div class="modal fade" data-easein="pulse" id="ajolote-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <!-- Armadillo Modal -->
+    <div class="modal fade" data-easein="pulse" id="armadillo-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog sc-modal-dialog">
             <div class="modal-content sc-modal-content">
                 <div class="modal-header sc-modal-header">
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
                     <div class="modal-title sc-modal-title" id="myModalLabel">
-                        <img src="img/pedals/ajolote-title.png" />
+                        <h2 class="sc-pedal-section title">Armadillo</h2>
                     </div>
                 </div>
                 <div class="modal-body sc-modal-body">
                     <div class="sc-modal-content">
-                        <img src="img/pedals/ajolote-hr.jpg" class="img-responsive shadow" />
+                        <img src="img/geebee/armadillo-hr.jpg" class="img-responsive shadow" />
                         <h2 class="sc-pedal-section title">Specs</h2>
                         <div class="sc-pedal-section-content">
                             <ul class="fa-ul">
@@ -268,9 +266,88 @@
                         <h2 class="sc-pedal-section title">Controls</h2>
                         <div class="sc-pedal-section-content">
                             <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Speed</li>
-                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Wave</li>
-                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Depth</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Wet</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Trigger</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Dry</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Hi/Lo</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default sc-button" data-dismiss="modal">Adiós</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chapulin Modal -->
+    <div class="modal fade" data-easein="pulse" id="chapulin-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog sc-modal-dialog">
+            <div class="modal-content sc-modal-content">
+                <div class="modal-header sc-modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <div class="modal-title sc-modal-title" id="myModalLabel">
+                        <h2 class="sc-pedal-section title">Chapulin</h2>
+                    </div>
+                </div>
+                <div class="modal-body sc-modal-body">
+                    <div class="sc-modal-content">
+                        <img src="img/geebee/chapulin-hr.jpg" class="img-responsive shadow center" />
+                        <h2 class="sc-pedal-section title">Specs</h2>
+                        <div class="sc-pedal-section-content">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Power: 9v DC</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Battery option: NO</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Custom colors available</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Custom knobs available</li>
+                            </ul>
+                        </div>
+                        <h2 class="sc-pedal-section title">Controls</h2>
+                        <div class="sc-pedal-section-content">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Volume</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default sc-button" data-dismiss="modal">Adiós</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zopilote Modal -->
+    <div class="modal fade" data-easein="pulse" id="zopilote-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog sc-modal-dialog">
+            <div class="modal-content sc-modal-content">
+                <div class="modal-header sc-modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <div class="modal-title sc-modal-title" id="myModalLabel">
+                        <h2 class="sc-pedal-section title">Zopilote</h2>
+                    </div>
+                </div>
+                <div class="modal-body sc-modal-body">
+                    <div class="sc-modal-content">
+                        <img src="img/geebee/zopilote-hr.jpg" class="img-responsive shadow center" />
+                        <h2 class="sc-pedal-section title">Specs</h2>
+                        <div class="sc-pedal-section-content">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Power: 9v DC</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Battery option: NO</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Custom colors available</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Custom knobs available</li>
+                            </ul>
+                        </div>
+                        <h2 class="sc-pedal-section title">Controls</h2>
+                        <div class="sc-pedal-section-content">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Volume</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Fuzz</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Bite</li>
+                                <li><i class="fa-li fa fa-circle-o sc-bullet"></i>Stability</li>
                             </ul>
                         </div>
                     </div>
